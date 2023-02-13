@@ -89,7 +89,7 @@ header ul li{
     background-color: var(--jumbo-bgblock9-ban);
 }
 
-.container{
+.container-jumbo{
     max-width:900px;
     margin: auto;
 }
@@ -98,7 +98,7 @@ h1{
     padding: 2rem 0;
 }
 
-.container > .left{
+.container-jumbo > .left{
     width:40%;
 }
 
@@ -111,7 +111,7 @@ h1{
     font-size: 1.8rem;
     font-weight: bold;
 }
-.container > .right{
+.container-jumbo > .right{
     width:60%;
 }
 
@@ -125,8 +125,11 @@ h1{
 }
 /* #endregion Jumbo */
 
-/* #region Business plan */
-.business-plan > .container-main{
+/* #region Sections */
+
+/* #region Business Plan */
+
+.container{
     margin: 6rem auto 0;
     width:800px;
 }
@@ -161,6 +164,7 @@ h2{
 
 .cost{
     margin:1rem 0;
+    font-weight: bold;
 }
 
 .period{
@@ -209,7 +213,31 @@ hr{
 #solution{
     margin-top: 2.5rem;
 }
-/* #endregion Business plan */
+/* #endregion Business Plan */
+
+/* #region Partner */
+.img-partner{
+    width:60%
+}
+.img-partner img{
+    width:100%;
+}
+.description-partner{
+    width:40%;
+    padding:3rem 2.5rem;
+}
+.description-partner p{
+    padding: 1rem 0 2rem;
+}
+.description-partner a {
+    padding:1rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+/* #endregion Partner */
+
+/* #endregion Sections */
 
 /* #endregion Main */
 
