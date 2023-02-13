@@ -1,0 +1,39 @@
+/* #region Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion Reset */
+
+/* #region Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* #endregion Body */
+
+/* #region Color */
+:root{
+    --jumbo-bgblock9-ban: #b4d0e7;
+    --btn: #0061ff;
+    --desbord: #d1e9cd;
+    --bg-block1: #a2d39b;
+    --bg-block2: #0093ce;
+    --bg-block3: #61082b;
+    --bg-block4: #ff1c1c;
+    --bg-block5: #f5f5f5;
+    --bg-blcok6: #d5001f;
+    --bg-block7: #0d2481;
+    --bg-block8: #ffd830;
+    --footer:#000000;
+}
+/* #endregion Color */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
