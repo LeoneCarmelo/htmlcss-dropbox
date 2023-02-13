@@ -16,6 +16,12 @@ body {
 .d-flex{
     display: flex;
 }
+button{
+    padding:5px 1rem;
+    background-color: var(--btn);
+    border:none;
+    color: white;
+}
 /* #endregion Common */
 
 /* #region Color */
@@ -63,22 +69,59 @@ header ul li{
 }
 
 .menu button{
-    padding:5px 1rem;
-    background-color: var(--btn);
-    border:none;
-    color: white;
+    margin-right: 10px;;
 }
 /* #endregion Header */
 
 /* #region Main */
-/* .jumbotron{
+
+/* #region Jumbo */
+.jumbotron{
     background-color: var(--jumbo-bgblock9-ban);
 }
 
 .container{
-    max-width:1152px;
+    max-width:900px;
     margin: auto;
+}
+h1{
+    font-size: 55px;
+    padding: 2rem 0;
+}
+
+.container > .left{
+    width:40%;
+}
+
+.left button{
+    margin:1.2rem 0;
+}
+.left i{
+    margin-top: 2rem;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.container > .right{
+    width:60%;
+}
+
+.jumbo{
+    width:100%;
+}
+
+.jumbo img{
+    width:110%;
+    margin-bottom:-80px;
+}
+/* #endregion Jumbo */
+
+/* #region Business plan */
+/* .business-plan > .container{
+    margin-top: 6rem;;
 } */
+/* #endregion Business plan */
+
 /* #endregion Main */
 
 /* #region Footer */
