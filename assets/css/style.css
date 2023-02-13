@@ -16,12 +16,22 @@ body {
 .d-flex{
     display: flex;
 }
+
 button{
     padding:5px 1rem;
     background-color: var(--btn);
     border:none;
     color: white;
 }
+
+.inside{
+    width: 85%;
+    margin: 0.5rem auto;
+}
+.m-y{
+    margin: 1rem 0;
+}
+
 /* #endregion Common */
 
 /* #region Color */
@@ -54,7 +64,6 @@ header{
 .menu{
     height:100%;
     align-items: center;
-    background-color: green;
 }
 
 .logo{
@@ -117,9 +126,89 @@ h1{
 /* #endregion Jumbo */
 
 /* #region Business plan */
-/* .business-plan > .container{
-    margin-top: 6rem;;
-} */
+.business-plan > .container-main{
+    margin: 6rem auto 0;
+    width:800px;
+}
+
+h2{
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+#annuale{
+    margin-left: 2rem;
+}
+
+.row{
+    width: 100%;
+    margin-top: 2rem;
+}
+.col4{
+    width: calc(100% / 12 *4);
+    border: 1px solid black;
+    min-height: 500px;
+}
+.col4:nth-child(2){
+    margin: 0 20px;
+}
+
+.single{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 4px 0;
+}
+
+.cost{
+    margin:1rem 0;
+}
+
+.period{
+    margin-bottom: 1.75rem;
+    color: gray;
+}
+
+.col4 ul{
+    list-style: none;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+}
+#btn-col1{
+    margin-top: 3rem;
+}
+#btn-col3{
+    margin-top: 29px;
+}
+
+li[class="d-flex m-y"] i{
+    margin-right: 4px;
+}
+hr{
+    width:20%;
+    color: gray;
+    margin: 2rem 0 2.5rem;
+}
+
+.blue{
+    color:var(--btn)
+}
+.border{
+    border: 1px solid gray;
+}
+.enterprise{
+    width:90%;
+    margin:1rem auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#solution{
+    margin-top: 2.5rem;
+}
 /* #endregion Business plan */
 
 /* #endregion Main */
