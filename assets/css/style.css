@@ -12,8 +12,15 @@ body {
 }
 /* #endregion Body */
 
+/* #region Common */
+.d-flex{
+    display: flex;
+}
+/* #endregion Common */
+
 /* #region Color */
 :root{
+    --header: white;
     --jumbo-bgblock9-ban: #b4d0e7;
     --btn: #0061ff;
     --desbord: #d1e9cd;
@@ -30,9 +37,48 @@ body {
 /* #endregion Color */
 
 /* #region Header */
+header{
+    width:100%;
+    height:80px;
+    position:sticky;
+    background-color: var(--header);
+    justify-content: space-between;
+}
+
+.menu{
+    height:100%;
+    align-items: center;
+    background-color: green;
+}
+
+.logo{
+    padding: 0 10px;
+}
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    padding: 0 1rem;
+}
+
+.menu button{
+    padding:5px 1rem;
+    background-color: var(--btn);
+    border:none;
+    color: white;
+}
 /* #endregion Header */
 
 /* #region Main */
+/* .jumbotron{
+    background-color: var(--jumbo-bgblock9-ban);
+}
+
+.container{
+    max-width:1152px;
+    margin: auto;
+} */
 /* #endregion Main */
 
 /* #region Footer */
