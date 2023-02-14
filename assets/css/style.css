@@ -267,7 +267,7 @@ hr{
     background-color: #0061ff;
 }
 .bottom{
-    height:200px;
+    height:250px;
     background-color: var(--jumbo-bgblock8-ban);
     align-items: center;
 }
@@ -278,7 +278,6 @@ hr{
 }
 .bottom h3{
     width:400px;
-    padding-top:40px;
     color: #61082b;
 }
 .bottom a{
@@ -286,7 +285,6 @@ hr{
     color:black;
     background-color: #fff;
     padding: 10px 1rem;
-    margin-top: 25px;
 }
 .col2{
     width: calc(100% / 12 * 2);
@@ -347,7 +345,17 @@ blockquote{
 /* #endregion Client */
 
 /* #region Faq */
-
+.faq h3{
+    padding-bottom: 2rem;
+}
+.faq p, .faq .fa-angle-up{
+    display:none;
+}
+.fa-angle-down, .fa-angle-up{
+    float:right;
+    position: relative;
+    bottom:18px;
+}
 /* #endregion Faq */
 
 /* #endregion Sections */
