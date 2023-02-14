@@ -23,7 +23,10 @@ button{
     border:none;
     color: white;
 }
-
+.container-col{
+    width: 85%;
+    margin: 0.5rem auto;
+}
 .inside{
     width: 85%;
     margin: 0.5rem auto;
@@ -36,6 +39,7 @@ button{
     width: 100%;
     margin-top: 2rem;
 }
+
 .col4{
     width: calc(100% / 12 *4);
     border: 1px solid black;
@@ -190,6 +194,8 @@ h2{
     text-align: center;
     margin-top: 1.75rem;
     margin-bottom: 1rem;
+    width:100%;
+    padding: 10px 0;
 }
 #btn-col1{
     margin-top: 3rem;
@@ -197,6 +203,7 @@ h2{
 #btn-col3{
     margin-top: 29px;
 }
+
 
 li[class="d-flex m-y"] i{
     margin-right: 4px;
