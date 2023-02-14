@@ -40,6 +40,10 @@ button{
     width: calc(100% / 12 *4);
     border: 1px solid black;
 }
+.col-f{
+    width:calc(100% / 10 * 2);
+    margin:0.5rem;
+}
 .p10{
     padding:10px;
 }
@@ -103,7 +107,7 @@ header ul li{
     background-color: var(--jumbo-bgblock8-ban);
 }
 
-.container-jumbo{
+.container-large{
     max-width:900px;
     margin: auto;
 }
@@ -112,7 +116,7 @@ h1{
     padding: 2rem 0;
 }
 
-.container-jumbo > .left{
+.container-large > .left{
     width:40%;
 }
 
@@ -125,7 +129,7 @@ h1{
     font-size: 1.8rem;
     font-weight: bold;
 }
-.container-jumbo > .right{
+.container-large > .right{
     width:60%;
 }
 
@@ -363,4 +367,27 @@ blockquote{
 /* #endregion Main */
 
 /* #region Footer */
+footer{
+    color:white;
+    background-color: var(--footer);
+}
+footer .container-large{
+    padding:4rem 0 2rem;
+}
+footer ul{
+    list-style: none;
+    padding-top: 1.5rem;
+}
+
+footer li {
+    padding-top:1rem;
+    font-size: small;
+}
+footer hr{
+    margin-top:5rem;
+    width:50%;
+}
+.gray{
+    color:gray;
+}
 /* #endregion Footer */
