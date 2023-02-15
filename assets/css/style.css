@@ -6,7 +6,7 @@
 }
 /* #endregion Reset */
 
-/* #region Body */
+/* #region Body tag */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -45,7 +45,12 @@ button {
 
 .col4 {
     width: calc(100% / 12 *4);
-    border: 1px solid black;
+
+}
+
+.bs {
+    box-shadow: 0 0 1px rgba(205, 195, 195, 0.86);
+    border: 1px solid rgba(205, 195, 195, 0.86);
 }
 
 .col-f {
@@ -91,8 +96,10 @@ header {
     width:100%;
     height:80px;
     position:sticky;
+    top:0;
     background-color: var(--header);
     justify-content: space-between;
+    z-index:1;
 }
 
 .menu {
@@ -188,6 +195,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+label, input {
+    cursor: pointer;
+}
+
 #annuale {
     margin-left: 2rem;
 }
@@ -198,7 +209,7 @@ h2 {
 
 .single {
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(205, 195, 195, 0.86);
     padding: 4px 0;
 }
 
@@ -237,9 +248,13 @@ li[class="d-flex m-y"] i {
     margin-right: 4px;
 }
 
+li[class="d-flex m-y"] {
+    align-items: baseline;
+}
+
 hr {
     width:20%;
-    color: gray;
+    color: rgba(205, 195, 195, 0.86);
     margin: 2rem 0 2.5rem;
 }
 
@@ -291,6 +306,14 @@ hr {
     border: 1px solid black;
     text-decoration: none;
     color: black;
+    border-radius: 0;
+    box-shadow: 0;
+    transition: box-shadow;
+}
+
+.description-partner a:hover {
+    box-shadow: -0.5px -0.5px 1px black,
+                0.5px 0.5px 1px black;
 }
 /* #endregion Partner */
 
@@ -381,6 +404,7 @@ blockquote {
 
 #block1 {
     background-color: var(--bg-block1);
+    border: 0.75rem solid var(--desbord);
 }
 
 #block2 {
