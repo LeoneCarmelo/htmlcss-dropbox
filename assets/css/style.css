@@ -66,7 +66,7 @@ button {
     border:none;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display:table;
     clear:both;
@@ -195,7 +195,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
-label, input {
+label, input, .btn, button {
     cursor: pointer;
 }
 
@@ -233,7 +233,6 @@ label, input {
     margin-bottom: 1rem;
     width:100%;
     padding: 10px 0;
-    cursor: pointer;
 }
 
 #btn-col1 {
@@ -260,15 +259,6 @@ hr {
 
 .blue {
     color:var(--btn)
-}
-
-.border {
-    border: 1px solid gray;
-}
-
-.border button {
-    padding:10px;
-    cursor: pointer;
 }
 
 .enterprise {
@@ -449,7 +439,7 @@ blockquote {
     display:none;
 }
 
-.fa-angle-down, .fa-angle-up {
+.fa-angle-down {
     float:right;
     position: relative;
     bottom:18px;
@@ -461,17 +451,9 @@ blockquote {
 }
 
 .questions:hover .fa-angle-down {
-    display: none;
+    rotate: 180deg;
 }
 
-.fa-angle-up {
-    display:none;
-}
-
-.questions:hover .fa-angle-up {
-    display:block;
-    right: 40px;
-}
 /* #endregion Faq */
 
 /* #endregion Sections */
